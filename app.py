@@ -73,19 +73,6 @@ def grass():
 				else:
 					versions_group = []
 
-				# print({"grass_type":{
-				# 	'id':url_split[-2],
-				# 	'nombre': pokemon['pokemon']['name'],
-				# 	'evolution':{
-				# 		'evol_1': evol_1,
-				# 		'evol_2': evol_2,
-				# 		'evol_3': evol_3
-				# 	},
-				# 	'versions': versions_group
-				# 	}})
-
-
-
 				# adicionando los valores del pokemon tipo hierba en la instancia alctual del loops
 
 				x.add_row([url_split[-2],pokemon['pokemon']['name'],[evol_1, evol_2, evol_3] , versions_group])
